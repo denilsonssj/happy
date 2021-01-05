@@ -26,5 +26,6 @@ yarn.lock
 
 package-lock.json
 
-/src/uploads/
-/src/database/database.sqlite
+uploads/
+src/uploads/
+src/database/database.sqlite
