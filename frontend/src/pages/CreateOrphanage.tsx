@@ -51,7 +51,7 @@ export default function CreateOrphanage(propsPosition: {latitude: number, longit
     data.append('opening_hours', opening_hours);
     data.append('open_on_weekends', String(open_on_weekends));
     images.forEach(image => {
-      data.append('images', image);
+      data.append('images', image); 
     });
     await api.post('orphanages', data);
     alert('Arquivo enviado com sucesso');
