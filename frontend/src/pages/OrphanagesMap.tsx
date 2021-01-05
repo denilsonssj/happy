@@ -7,7 +7,6 @@ import '../styles/pages/orphanages-map.css';
 import mapMarkerImg from '../assets/images/map-marker.svg'; 
 import mapIcon from '../utils/mapIcon';
 import api from '../services/api';
-import { LeafletMouseEvent } from 'leaflet';
 
 interface Orphanage {
     id: number;
