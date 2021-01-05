@@ -70,7 +70,7 @@ export default function CreateOrphanage(propsPosition: {latitude: number, longit
       return URL.createObjectURL(image);
     });
 
-    setPreviewImages(selectedImagesPreview);
+    setPreviewImages(selectedImagesPreview); 
 
   }
 
